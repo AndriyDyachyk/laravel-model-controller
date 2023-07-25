@@ -23,5 +23,3 @@ Route::get('/', function () {
 
 //ROTTE CON CONTROLLER
 Route::get('/', [GuestController::class, 'index']); //ricordiamo che prima di lanciare il sito dobbiamo dare un alias al Controller affinche laravel sappia a chi ci stiamo riferendo come "GuestController"
-
-Route::get('/about', [GuestController::class, 'about']);
